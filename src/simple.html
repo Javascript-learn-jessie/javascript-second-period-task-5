@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css"> -->
+
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <!-- <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
+    <script src="../node_modules/lodash/lodash.min.js"></script>
+    <!-- <script src="js/main.js"></script> -->
+
+    <title>Form Designer</title>
+</head>
+
+<body>
+    <div>
+        <div id="container">
+            <button id="add">Add</button>
+            <button id="preview" value="Preview">Preview</button>
+        </div>
+        <div id="choose-dialog" title="选择添加的字段类型">
+            <br>
+            <form>
+                <select id='type' style="margin:-2px;width:200px;">
+                    <option value='text'>文本</option>
+                    <option value='date'>日期</option>
+                </select>
+
+            </form>
+        </div>
+    </div>
+</body>
+<script src="js/choose.js"></script>
+<!-- <script src="js/addForm.js"></script> -->
+
+</html>
